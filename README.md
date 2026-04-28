@@ -42,25 +42,4 @@ Then open [http://localhost:3000](http://localhost:3000).
 - `npm run build` - create production build
 - `npm run start` - start production server
 
-## Production Readiness
-
-This project is ready for GitHub + Vercel deployment:
-
-- Production build passes with `npm run build`
-- Lint checks pass with `npm run lint`
-- Sensitive files are ignored via `.gitignore` (including `.env*` and `.vercel`)
-
-## Deploy to Vercel
-
-1. Push this repository to GitHub.
-2. Go to [Vercel](https://vercel.com/) and click **Add New Project**.
-3. Import your GitHub repository.
-4. Keep default build settings for Next.js.
-5. Click **Deploy**.
-
-Vercel will automatically create previews for new commits and pull requests.
-
-## Notes
-
-- Quiz content is stored in `src/data/questions.json`.
-- Types are defined in `src/types/quiz.ts`.
+<img width="1919" height="1079" alt="Ekran görüntüsü 2026-04-28 190951" src="https://github.com/user-attachments/assets/d26ea60e-3e28-41f0-b4d5-9e4d29961d34" />
