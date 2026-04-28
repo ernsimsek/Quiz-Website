@@ -1,0 +1,986 @@
+{
+  "categories": [
+    {
+      "id": "tarih",
+      "name": "Tarih",
+      "icon": "🏛️",
+      "questions": {
+        "easy": [
+          {
+            "question": "Türkiye Cumhuriyeti'nin ilk cumhurbaşkanı kimdir?",
+            "options": [
+              "İsmet İnönü",
+              "Celal Bayar",
+              "Mustafa Kemal Atatürk",
+              "Turgut Özal"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "İstanbul'un fethi hangi yıl gerçekleşmiştir?",
+            "options": [
+              "1433",
+              "1463",
+              "1443",
+              "1453"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Osmanlı Devleti kaç yılında kurulmuştur?",
+            "options": [
+              "1300",
+              "1243",
+              "1353",
+              "1299"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Birinci Dünya Savaşı hangi yıllar arasında yaşanmıştır?",
+            "options": [
+              "1910-1914",
+              "1914-1918",
+              "1920-1924",
+              "1912-1916"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Dünyanın yedi harikasından biri olan Artemis Tapınağı nerede bulunur?",
+            "options": [
+              "Muğla",
+              "Aydın",
+              "İzmir",
+              "Antalya"
+            ],
+            "correctAnswer": 2
+          }
+        ],
+        "medium": [
+          {
+            "question": "Hangisi Osmanlı padişahlarından biri değildir?",
+            "options": [
+              "III. Selim",
+              "Fatih Sultan Mehmet",
+              "Kanuni Süleyman",
+              "I. Alparslan",
+              "II. Mahmut",
+              "Yavuz Selim",
+              "II. Abdülhamit",
+              "IV. Murat"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Kurtuluş Savaşı hangi yıllar arasında yapılmıştır?",
+            "options": [
+              "1920-1923",
+              "1919-1922",
+              "1918-1921",
+              "1917-1920"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Türkiye'de cumhuriyet hangi tarihte ilan edilmiştir?",
+            "options": [
+              "29 Ekim 1923",
+              "19 Mayıs 1919",
+              "30 Ağustos 1922",
+              "23 Nisan 1920"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Fatih Sultan Mehmet hangi yıl İstanbul'u fethetmiştir?",
+            "options": [
+              "1444",
+              "1475",
+              "1461",
+              "1453"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Hangisi Türklerin Anadolu'ya giriş kapısı olarak bilinir?",
+            "options": [
+              "Manzikert",
+              "Malazgirt",
+              "Kösedağ",
+              "Miryokefalon"
+            ],
+            "correctAnswer": 1
+          }
+        ],
+        "hard": [
+          {
+            "question": "Türk Tarih Kurumu'nu kim kurmuştur?",
+            "options": [
+              "İsmet İnönü",
+              "Mustafa Kemal Atatürk",
+              "Falih Rıfkı Atay",
+              "Yakup Kadri Karaosmanoğlu"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Osmanlı Devleti'nin yükselme dönemi hangi padişah döneminde başlamıştır?",
+            "options": [
+              "Yıldırım Bayezid",
+              "II. Murad",
+              "I. Murad",
+              "Çelebi Mehmet"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Hangisi Anadolu beyliklerinden biri değildir?",
+            "options": [
+              "Karamanlılar",
+              "Menteşeoğulları",
+              "Aydınoğulları",
+              "Babürler"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Tanzimat Fermanı hangi yıl ilan edilmiştir?",
+            "options": [
+              "1826",
+              "1876",
+              "1856",
+              "1839"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Hangisi Islahat Fermanı'nı ilan eden padişahtır?",
+            "options": [
+              "Abdülmecit",
+              "Abdülhamit II",
+              "Abdülaziz",
+              "II. Mahmut"
+            ],
+            "correctAnswer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "bilim",
+      "name": "Bilim",
+      "icon": "🔬",
+      "questions": {
+        "easy": [
+          {
+            "question": "Su hangi elementlerden oluşur?",
+            "options": [
+              "Hidrojen ve Oksijen",
+              "Azot ve Hidrojen",
+              "Sodyum ve Klor",
+              "Karbon ve Oksijen"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Güneş sistemimizde kaç gezegen vardır?",
+            "options": [
+              "9",
+              "8",
+              "10",
+              "7"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Işığın hızı yaklaşık olarak nedir?",
+            "options": [
+              "150.000 km/s",
+              "300.000 km/s",
+              "500.000 km/s",
+              "1.000.000 km/s"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "İnsan vücudundaki en büyük organ hangisidir?",
+            "options": [
+              "Akciğer",
+              "Karaciğer",
+              "Deri",
+              "Beyin"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "DNA'nın açılımı nedir?",
+            "options": [
+              "Dihidroksiasit",
+              "Dinükleik Asit",
+              "Deoksiribonükleik Asit",
+              "Dioksijen Asit"
+            ],
+            "correctAnswer": 2
+          }
+        ],
+        "medium": [
+          {
+            "question": "Periyodik tabloda kaç element vardır?",
+            "options": [
+              "104",
+              "92",
+              "120",
+              "118"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Hangi gezegen 'Kızıl Gezegen' olarak bilinir?",
+            "options": [
+              "Jüpiter",
+              "Mars",
+              "Venüs",
+              "Merkür"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Fotosentez yapan organizmalara ne ad verilir?",
+            "options": [
+              "Saprotrof",
+              "Ototrof",
+              "Heterotrof",
+              "Parazit"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Atom numarası 1 olan element hangisidir?",
+            "options": [
+              "Hidrojen",
+              "Helyum",
+              "Lityum",
+              "Berilyum"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Yerçekimi ivmesi yaklaşık olarak kaç m/s²'dir?",
+            "options": [
+              "12.1",
+              "9.8",
+              "8.5",
+              "10.2"
+            ],
+            "correctAnswer": 1
+          }
+        ],
+        "hard": [
+          {
+            "question": "Kuantum mekaniğinde 'Süperpozisyon' ne anlama gelir?",
+            "options": [
+              "Enerjinin korunumu",
+              "Işığın hem dalga hem parçacık olması",
+              "Parçacıkların çiftlenmesi",
+              "Bir parçacığın aynı anda birden fazla durumda olması"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Hangi bilim insanı Görelilik Teorisi'ni geliştirmiştir?",
+            "options": [
+              "Isaac Newton",
+              "Max Planck",
+              "Albert Einstein",
+              "Niels Bohr"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Bir mol madde kaç tane tanecik içerir?",
+            "options": [
+              "9.109 x 10⁻³¹",
+              "6.022 x 10²³",
+              "1.602 x 10⁻¹⁹",
+              "3.14 x 10²³"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Hangi element uranyumdan sonra gelir?",
+            "options": [
+              "Radyum",
+              "Toryum",
+              "Plütonyum",
+              "Neptünyum"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Siyah deliklerin varlığını ilk kim teorik olarak öngördü?",
+            "options": [
+              "Roger Penrose",
+              "Stephen Hawking",
+              "Karl Schwarzschild",
+              "Edwin Hubble"
+            ],
+            "correctAnswer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spor",
+      "name": "Spor",
+      "icon": "⚽",
+      "questions": {
+        "easy": [
+          {
+            "question": "Futbolda bir takım sahada kaç oyuncu ile başlar?",
+            "options": [
+              "7",
+              "11",
+              "9",
+              "10"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Olimpiyat oyunları kaç yılda bir düzenlenir?",
+            "options": [
+              "5",
+              "4",
+              "2",
+              "3"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Basketbolda bir pota kaç puandır?",
+            "options": [
+              "3",
+              "4",
+              "1",
+              "2"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Tenis maçında kazanılması gereken set sayısı kaçtır?",
+            "options": [
+              "3",
+              "2",
+              "1",
+              "4"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Hangi spor dalında 'çakma' terimi kullanılır?",
+            "options": [
+              "Futbol",
+              "Basketbol",
+              "Voleybol",
+              "Tenis"
+            ],
+            "correctAnswer": 2
+          }
+        ],
+        "medium": [
+          {
+            "question": "Dünya Kupası'nı en çok hangi ülke kazanmıştır?",
+            "options": [
+              "Brezilya",
+              "Almanya",
+              "Arjantin",
+              "İtalya"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "NBA'de bir maç kaç çeyrekten oluşur?",
+            "options": [
+              "2",
+              "4",
+              "3",
+              "5"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Maraton koşusu kaç kilometredir?",
+            "options": [
+              "42.195",
+              "45.000",
+              "40.000",
+              "35.000"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Hangi spor dalında 'servis' ile başlanır?",
+            "options": [
+              "Voleybol",
+              "Futbol",
+              "Tenis",
+              "Basketbol"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "FIFA Dünya Kupası kaç yılda bir yapılır?",
+            "options": [
+              "4",
+              "3",
+              "2",
+              "5"
+            ],
+            "correctAnswer": 0
+          }
+        ],
+        "hard": [
+          {
+            "question": "Futbol tarihinde en hızlı atılan gol kaç saniyedir?",
+            "options": [
+              "2.8",
+              "5.0",
+              "1.5",
+              "10.2"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Hangi ülke futbolu modern anlamda ilk kez kurallandıran ülkedir?",
+            "options": [
+              "Brezilya",
+              "Almanya",
+              "İngiltere",
+              "Fransa"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "NBA'de bir maçta en çok sayı atan oyuncu kimdir?",
+            "options": [
+              "Michael Jordan",
+              "Wilt Chamberlain",
+              "LeBron James",
+              "Kobe Bryant"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Olimpiyat meşalesi hangi şehirden yakılır?",
+            "options": [
+              "Paris",
+              "Roma",
+              "Atina",
+              "Olimpia"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Hangi spor dalında 'skorbord' kullanılmaz?",
+            "options": [
+              "Basketbol",
+              "Voleybol",
+              "Yüzme",
+              "Futbol"
+            ],
+            "correctAnswer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "cografya",
+      "name": "Coğrafya",
+      "icon": "🌍",
+      "questions": {
+        "easy": [
+          {
+            "question": "Dünyanın en büyük okyanusu hangisidir?",
+            "options": [
+              "Hint Okyanusu",
+              "Pasifik Okyanusu",
+              "Atlantik Okyanusu",
+              "Arktik Okyanusu"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Türkiye'nin başkenti neresidir?",
+            "options": [
+              "Bursa",
+              "Ankara",
+              "İzmir",
+              "İstanbul"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "En büyük kıta hangisidir?",
+            "options": [
+              "Kuzey Amerika",
+              "Güney Amerika",
+              "Asya",
+              "Afrika"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Everest Dağı hangi kıtadadır?",
+            "options": [
+              "Asya",
+              "Avrupa",
+              "Afrika",
+              "Kuzey Amerika"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Hangi nehir dünyanın en uzun nehridir?",
+            "options": [
+              "Amazon",
+              "Yangtze",
+              "Nil",
+              "Mississippi"
+            ],
+            "correctAnswer": 2
+          }
+        ],
+        "medium": [
+          {
+            "question": "Çin Seddi'nin uzunluğu yaklaşık olarak kaç km'dir?",
+            "options": [
+              "10.000",
+              "15.000",
+              "21.000",
+              "30.000"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Volkanik bir ada olan İzlanda hangi okyanusta yer alır?",
+            "options": [
+              "Atlas Okyanusu",
+              "Kuzey Buz Denizi",
+              "Pasifik Okyanusu",
+              "Hint Okyanusu"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Dünyanın en derin gölü hangisidir?",
+            "options": [
+              "Baykal Gölü",
+              "Tanganyika Gölü",
+              "Victoria Gölü",
+              "Hazar Denizi"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Hangi ülke 'bin gölün ülkesi' olarak bilinir?",
+            "options": [
+              "Finlandiya",
+              "Norveç",
+              "İsveç",
+              "Kanada"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Sahara Çölü hangi kıtadadır?",
+            "options": [
+              "Asya",
+              "Afrika",
+              "Güney Amerika",
+              "Avustralya"
+            ],
+            "correctAnswer": 1
+          }
+        ],
+        "hard": [
+          {
+            "question": "Hangi dağ zincirleri tektonik plaka hareketi sonucu oluşmamıştır?",
+            "options": [
+              "Urallar",
+              "Alpler",
+              "Andlar",
+              "Himalayalar"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Dünyanın en kurak yeri olan Atacama Çölü nerededir?",
+            "options": [
+              "Şili",
+              "Avustralya",
+              "Arabistan",
+              "Sahara"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Hangi ada ülkesi Hint Okyanusu'nda yer alır?",
+            "options": [
+              "Madagaskar",
+              "Borneo",
+              "İzlanda",
+              "Grönland"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Kuzey Işıkları hangi kutup bölgesinde görülür?",
+            "options": [
+              "Güney Kutbu",
+              "Ekvator",
+              "Kuzey Kutbu",
+              "Her yerde"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Hangi nehir Türkiye'den doğup Basra Körfezi'ne dökülür?",
+            "options": [
+              "Fırat",
+              "Yeşilırmak",
+              "Kızılırmak",
+              "Dicle"
+            ],
+            "correctAnswer": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "sanat",
+      "name": "Sanat",
+      "icon": "🎨",
+      "questions": {
+        "easy": [
+          {
+            "question": "Mona Lisa tablosu kimin eseridir?",
+            "options": [
+              "Leonardo da Vinci",
+              "Rafael",
+              "Michelangelo",
+              "Van Gogh"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Hangi sanat akımı 'İzlenimcilik' olarak bilinir?",
+            "options": [
+              "Sürrealizm",
+              "Kübizm",
+              "Dadaizm",
+              "Empresyonizm"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Ünlü heykeltıraş Michelangelo'nun en bilinen eseri hangisidir?",
+            "options": [
+              "Pieta",
+              "David",
+              "Moses",
+              "Bacchus"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Hangi renkler birincil renklerdir?",
+            "options": [
+              "Pembe, Lacivert, Kahverengi",
+              "Siyah, Beyaz, Gri",
+              "Yeşil, Turuncu, Mor",
+              "Kırmızı, Mavi, Sarı"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Van Gogh'un ünlü tablosu 'Yıldızlı Gece' hangi yüzyılda yapılmıştır?",
+            "options": [
+              "18. yüzyıl",
+              "20. yüzyıl",
+              "17. yüzyıl",
+              "19. yüzyıl"
+            ],
+            "correctAnswer": 3
+          }
+        ],
+        "medium": [
+          {
+            "question": "Hangi sanatçı 'Kübizm' akımının kurucusudur?",
+            "options": [
+              "Salvador Dali",
+              "Henri Matisse",
+              "Claude Monet",
+              "Pablo Picasso"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "İstanbul'daki Ayasofya hangi yüzyılda inşa edilmiştir?",
+            "options": [
+              "8. yüzyıl",
+              "6. yüzyıl",
+              "10. yüzyıl",
+              "4. yüzyıl"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Hangi ressam 'Impression, Sunrise' tablosu ile empresyonizmi başlatmıştır?",
+            "options": [
+              "Edgar Degas",
+              "Camille Pissarro",
+              "Pierre-Auguste Renoir",
+              "Claude Monet"
+            ],
+            "correctAnswer": 3
+          },
+          {
+            "question": "Ünlü heykel 'Düşünen Adam' kimin eseridir?",
+            "options": [
+              "Auguste Rodin",
+              "Gian Lorenzo Bernini",
+              "Donatello",
+              "Michelangelo"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Hangi sanat akımı 'gerçeküstücülük' olarak bilinir?",
+            "options": [
+              "Dadaizm",
+              "Ekspresyonizm",
+              "Sürrealizm",
+              "Fovizm"
+            ],
+            "correctAnswer": 2
+          }
+        ],
+        "hard": [
+          {
+            "question": "Hangi Rönesans sanatçısı 'Vitruvius Adamı' çizimini yapmıştır?",
+            "options": [
+              "Rafael",
+              "Leonardo da Vinci",
+              "Botticelli",
+              "Michelangelo"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ünlü tablo 'Guernica' hangi sanatçıya aittir?",
+            "options": [
+              "Joan Miro",
+              "Juan Gris",
+              "Pablo Picasso",
+              "Salvador Dali"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Hangi sanat akımı 'Fovizm' olarak bilinir?",
+            "options": [
+              "Vahşi Hayvanlar",
+              "Gerçekçilik",
+              "Soğuk Renkler",
+              "Soyut Sanat"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "İlk sergisini 1874'te Paris'te açan sanat grubu hangisidir?",
+            "options": [
+              "Kübistler",
+              "Sürrealistler",
+              "İzlenimciler",
+              "Ekspresyonistler"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Hangi sanatçı 'Perspektif' kavramını ilk kullananlardan biridir?",
+            "options": [
+              "Masaccio",
+              "Donatello",
+              "Filippo Brunelleschi",
+              "Leon Battista Alberti"
+            ],
+            "correctAnswer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "edebiyat",
+      "name": "Edebiyat",
+      "icon": "📚",
+      "questions": {
+        "easy": [
+          {
+            "question": "Dünya edebiyatının en ünlü eseri '1984'ün yazarı kimdir?",
+            "options": [
+              "Aldous Huxley",
+              "George Orwell",
+              "Ray Bradbury",
+              "H.G. Wells"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Harry Potter serisinin yazarı kimdir?",
+            "options": [
+              "J.R.R. Tolkien",
+              "C.S. Lewis",
+              "J.K. Rowling",
+              "Stephen King"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Aşağıdakilerden hangisi bir tiyatro eseridir?",
+            "options": [
+              "Suç ve Ceza",
+              "Sineklerin Tanrısı",
+              "Bir Adam Yaratmak",
+              "Yaban"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Masalların ünlü yazarı Hans Christian Andersen hangi ülkeye aittir?",
+            "options": [
+              "İsveç",
+              "Norveç",
+              "Danimarka",
+              "Finlandiya"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Küçük Prens kitabının yazarı kimdir?",
+            "options": [
+              "Antoine de Saint-Exupéry",
+              "Jules Verne",
+              "Victor Hugo",
+              "Alexandre Dumas"
+            ],
+            "correctAnswer": 0
+          }
+        ],
+        "medium": [
+          {
+            "question": "Nobel Edebiyat Ödülü'nü kazanan ilk Türk yazar kimdir?",
+            "options": [
+              "Nazım Hikmet",
+              "Orhan Pamuk",
+              "Yaşar Kemal",
+              "Sait Faik Abasıyanık"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Aşağıdakilerden hangisi Dostoyevski'nin eseridir?",
+            "options": [
+              "Anna Karenina",
+              "Suç ve Ceza",
+              "Savaş ve Barış",
+              "Diriliş"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Hangisi Shakespeare'in trajedilerinden biri değildir?",
+            "options": [
+              "Hamlet",
+              "Macbeth",
+              "Fırtına",
+              "Kral Lear"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Sait Faik Abasıyanık aşağıdaki edebi türlerin hangisinde öne çıkmıştır?",
+            "options": [
+              "Roman",
+              "Şiir",
+              "Hikaye",
+              "Tiyatro"
+            ],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Aşağıdakilerden hangisi bir destandır?",
+            "options": [
+              "Karamazov Kardeşler",
+              "Manas Destanı",
+              "Çalıkuşu",
+              "Kuyucaklı Yusuf"
+            ],
+            "correctAnswer": 1
+          }
+        ],
+        "hard": [
+          {
+            "question": "James Joyce'un 'Ulysses' adlı eseri hangi şehirde geçmektedir?",
+            "options": [
+              "Londra",
+              "Dublin",
+              "Paris",
+              "New York"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Aşağıdakilerden hangisi postmodern edebiyat akımının temsilcilerindendir?",
+            "options": [
+              "Vladimir Nabokov",
+              "Charles Dickens",
+              "Jane Austen",
+              "Honoré de Balzac"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Türk edebiyatında 'Tanzimat Edebiyatı' hangi yıllar arasında yaşanmıştır?",
+            "options": [
+              "1839-1896",
+              "1896-1923",
+              "1923-1950",
+              "1700-1839"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Franz Kafka'nın tamamlanamayan en ünlü romanı hangisidir?",
+            "options": [
+              "Dönüşüm",
+              "Şato",
+              "Dava",
+              "Amerika"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Aşağıdakilerden hangisi bir 'akım' değil, bir 'edebi tür'dür?",
+            "options": [
+              "Sürrealizm",
+              "Romantizm",
+              "Viktorya Edebiyatı",
+              "Roman"
+            ],
+            "correctAnswer": 3
+          }
+        ]
+      }
+    }
+  ]
+}

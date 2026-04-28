@@ -1,65 +1,78 @@
-import Image from "next/image";
+import type { Metadata } from "next";
+import data from "@/data/questions.json";
+import type { QuizData } from "@/types/quiz";
+import CategoryCard from "@/components/CategoryCard";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Ana Sayfa | Bilgi Yarışması",
+  description: "Kategori seçin ve quize başlayın!",
+};
+
+const quizData = data as QuizData;
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div>
+      {/* Hero */}
+      <section className="max-w-2xl mx-auto text-center py-12 sm:py-20">
+        <p className="text-sm font-medium text-amber-700 tracking-wide uppercase mb-4 animate-reveal">
+          Bilgi Yarışması
+        </p>
+        <h2 className="text-4xl sm:text-5xl font-bold text-stone-800 tracking-tight leading-[1.1] mb-6 animate-reveal stagger-1">
+          Bilgini
+          <br />
+          <span className="text-amber-700">ölç, geliştir</span>
+        </h2>
+        <p className="text-stone-500 text-lg leading-relaxed max-w-lg mx-auto mb-10 animate-reveal stagger-2">
+          {quizData.categories.length} kategori,{' '}
+          {quizData.categories.reduce(
+            (sum, c) => sum + c.questions.easy.length + c.questions.medium.length + c.questions.hard.length,
+            0
+          )}{' '}
+          soru. Zorluk seç, başla.
+        </p>
+
+        {/* Inline stats — understated */}
+        <div className="flex items-center justify-center gap-6 text-sm text-stone-400 animate-reveal stagger-3">
+          <span className="flex items-center gap-1.5">
+            <span className="w-1 h-1 rounded-full bg-emerald-500" />
+            Kolay
+          </span>
+          <span className="w-px h-3 bg-stone-200" />
+          <span className="flex items-center gap-1.5">
+            <span className="w-1 h-1 rounded-full bg-amber-500" />
+            Orta
+          </span>
+          <span className="w-px h-3 bg-stone-200" />
+          <span className="flex items-center gap-1.5">
+            <span className="w-1 h-1 rounded-full bg-rose-500" />
+            Zor
+          </span>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Categories */}
+      <section>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+          {quizData.categories.map((category, i) => (
+            <div
+              key={category.id}
+              className={`animate-reveal stagger-${Math.min(i + 1, 6)}`}
+            >
+              <CategoryCard category={category} />
+            </div>
+          ))}
         </div>
-      </main>
+      </section>
+
+      {/* Bottom note */}
+      <section className="text-center mt-16 sm:mt-24 pb-8 animate-reveal stagger-6">
+        <div className="inline-flex items-center gap-2 text-xs text-stone-400 bg-stone-100/60 px-4 py-2 rounded-full">
+          <span>Her kategoride 3 zorluk seviyesi</span>
+          <span className="w-px h-3 bg-stone-300" />
+          <span>Toplam {quizData.categories.length * 3} farklı deneyim</span>
+        </div>
+      </section>
     </div>
   );
 }
